@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz Game | App</title>
+</head>
+<body>
+    <main>
+        <div class="center">
+            <h1>
+                Frontend Quiz
+            </h1>
+        </div>
+        <section id="start">
+            <div class="center">
+                <div class="firstPage">
+                    This is a simple quiz
+                </div>
+                <div class="firstPage">
+                    Questions are based on HTML, CSS, and JavaScript
+                </div>
+                <div class="firstPage">
+                    You have Five Questions to Answer. Goodluck!
+                </div>
+                <div>
+                    <button class="forward" onclick="start()">
+                        START NOW
+                    </button>
+                </div>
+                </div>
+        </section>
+        <section id="questionOne">
+            <div>
+                <b>
+                    Question 1: What is the full meaning of HTML?
+                </b>
+                <br>
+                <br>
+            </div>
+            <div >
+                <script>
+                    const quesOne = [
+                        { option: "HighText Markup Language", class: "options-a" },
+                        { option: "Hyper Technology Machine Language", class: "options-b" },
+                        { option: "HyperText Markup Language", class: "options-c" },
+                        { option: "High Tech Machine Language", class: "options-d" }
+                    ];
+
+                    quesOne.map(res => {
+                        
+                        document.write(`<button class="${res.class}" onclick="questionOne('${res.class}')">${res.option}</button><br>`);
+                    
+                    });
+                   
+                </script>
+            </div>
+            <div class="">
+                <div class="div-forward-questions">
+                    <button class="forward-questions" onclick="nextOne()">
+                        NEXT QUESTION
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="questionTwo">
+            <div>
+                <b>
+                    Question 2: Which tag is used to embed an image in HTML code?
+                </b>
+                <br>
+                <br>
+            </div>
+            <div>
+                <script>
+                    const quesTwo = [
+                        { option: "&lt;picture&gt;", class: "options-a-two" },
+                        { option: "&lt;image&gt;", class: "options-b-two" },
+                        { option: "&lt;pic&gt;", class: "options-c-two" },
+                        { option: "&lt;img&gt;", class: "options-d-two" }
+                    ];
+
+                    quesTwo.map(res => {
+
+                        document.write(`<button class="${res.class}" onclick="questionTwo('${res.class}')">${res.option}</button><br>`);
+
+                    });
+
+                </script>
+            </div>
+            <div class="">
+                <div class="div-forward-questions">
+                    <button class="forward-questions" onclick="nextTwo()">
+                        NEXT QUESTION
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="questionThree">
+            <div>
+                <b>
+                    Question 3: What is the full meaning of CSS?
+                </b>
+                <br>
+                <br>
+            </div>
+            <div>
+                <script>
+                    const quesThree = [
+                        { option: "Cascading Style Sheets", class: "options-a-three" },
+                        { option: "Coding Style Sheets", class: "options-b-three" },
+                        { option: "Cascading Style Signature", class: "options-c-three" },
+                        { option: "Coding Style Signature", class: "options-d-three" }
+                    ];
+
+                    quesThree.map(res => {
+
+                        document.write(`<button class="${res.class}" onclick="questionThree('${res.class}')">${res.option}</button><br>`);
+
+                    });
+
+                </script>
+            </div>
+            <div class="">
+                <div class="div-forward-questions">
+                    <button class="forward-questions" onclick="nextThree()">
+                        NEXT QUESTION
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="questionFour">
+            <div>
+                <b>
+                    Question 4: If a CSS code has {margin: 2px 3px 4px 5px}, How is this interpreted?
+                </b>
+                <br>
+                <br>
+            </div>
+            <div>
+                <script>
+                    const quesFour = [
+                        { option: "2px top, 3px left, 4px bottom, 5px right", class: "options-a-four" },
+                        { option: "2px top, 4px right, 3px bottom, 5px left", class: "options-b-four" },
+                        { option: "2px top, 3px bottom, 4px left, 5px right", class: "options-c-four" },
+                        { option: "2px top, 3px right, 4px bottom, 5px left", class: "options-d-four" }
+                    ];
+
+                    quesFour.map(res => {
+
+                        document.write(`<button class="${res.class}" onclick="questionFour('${res.class}')">${res.option}</button><br>`);
+
+                    });
+
+                </script>
+            </div>
+            <div class="">
+                <div class="div-forward-questions">
+                    <button class="forward-questions" onclick="nextFour()">
+                        NEXT QUESTION
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="questionFive">
+            <div>
+                <b>
+                    Question 5: What does DOM stand for?
+                </b>
+                <br>
+                <br>
+            </div>
+            <div>
+                <script>
+                    const quesFive = [
+                        { option: "Data Object Modelling", class: "options-a-five" },
+                        { option: "Document Object Model", class: "options-b-five" },
+                        { option: "Data Object Model", class: "options-c-five" },
+                        { option: "Document Object Modelling", class: "options-d-five" }
+                    ];
+
+                    quesFive.map(res => {
+
+                        document.write(`<button class="${res.class}" onclick="questionFive('${res.class}')">${res.option}</button><br>`);
+
+                    });
+
+                </script>
+            </div>
+            <div class="">
+                <div class="div-forward-questions">
+                    <button class="forward-questions" onclick="nextFive()">
+                        SEE RESULT
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div class="div-score">
+            Score: <span class="userScore">0</span>
+        </div>
+        <section id="end">
+            <div class="center">
+                <div class="firstPage">
+                    <h1>
+                        Game Over, You Scored: <span class="totalScore">0</span>
+                    </h1>
+                </div>
+                <div class="firstPage">
+                    Thankyou for Playing!!!
+                </div>
+                <div>
+                    <button class="forward" onclick="end()">
+                        EXIT
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="js/script.js"></script>
+</html>

@@ -1,0 +1,377 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    display: grid;
+    justify-content: center;
+}
+
+main {
+    border: 5px solid blue;
+    padding: 1em 40px 1.3em 40px;
+    margin: 5rem;
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        margin: 1rem;
+    }
+}
+
+section div h1 {
+    font-size: 2em;
+}
+
+button {
+    cursor: pointer;
+    margin: 0.5em;
+}
+
+.forward {
+    background-color: indigo;
+    color: whitesmoke;
+    border: none;
+    padding: 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.forward-questions {
+    background-color: indigo;
+    color: whitesmoke;
+    border: none;
+    padding: 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Question one stlyes */
+
+.options-a {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-b {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-b:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-c {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-c:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-d {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-d:hover {
+    background-color: wheat;
+    color: black;
+}
+
+/* Question two stlyes */
+.options-a-two {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-a-two:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-b-two {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-b-two:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-c-two {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-c-two:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-d-two {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-d-two:hover {
+    background-color: wheat;
+    color: black;
+}
+
+/* Question three stlyes */
+.options-a-three {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-a-three:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-b-three {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-b-three:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-c-three {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-c-three:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-d-three {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-d-three:hover {
+    background-color: wheat;
+    color: black;
+}
+
+/* Question four stlyes */
+.options-a-four {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-a-four:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-b-four {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-b-four:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-c-four {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-c-four:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-d-four {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-d-four:hover {
+    background-color: wheat;
+    color: black;
+}
+
+/* Question five stlyes */
+.options-a-five {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-a-five:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-b-five {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-b-five:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-c-five {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-c-five:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.options-d-five {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.options-d-five:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.div-flex {
+    display: inline-flex;
+}
+
+.div-forward-questions {
+    text-align: right;
+}
+
+.div-score {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
+    display: none;
+}
+
+.correctAns {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.wrongAns {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+#questionOne {
+    display: none;
+}
+
+#questionTwo {
+    display: none;
+}
+
+#questionThree {
+    display: none;
+}
+
+#questionFour {
+    display: none;
+}
+
+#questionFive {
+    display: none;
+}
+
+.firstPage {
+    margin: 45px 0px;
+}
+
+#end {
+    display: none;
+}
