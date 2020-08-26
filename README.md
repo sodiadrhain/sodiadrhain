@@ -16,12 +16,11 @@ Here are some ideas to get you started:
 -->
 
 
-### Hello, My Lord. May I? 👋
+**_I am Soji_, Follow me on Twitter: (https://twitter.com/sodiadrhain).
 
-Before you is a homosapien that has a knack for many things. _Believe you me_, I love building tools for [developers](https://dev.to/unicodeveloper), [writing](https://medium.com/@unicodeveloper), [speaking](https://speakerdeck.com/unicodeveloper), [building developer communities](https://www.benjamindada.com/forloop-africa/) and slapping my keyboard till something works. :collision:
+_I love building new stuffs and solving problems that gets to make things work._ :sparkles:  :four_leaf_clover: :seedling:
 
-I adore wicked people. I'm specifically referring to folks that are wicked about their personal growth. :grin:
+_I am a fan of clean code too; love to find bugs and fix them; **In my leisure I watch football or play video games, else I sleep. :alien:
 
-:sparkles: Bombastic rhetorics abound that [@codebeast](https://twitter.com/codebeast) is human. Lies! My rebuttal accentuates his humanoid status--**half-human, half-robot, and definitely half-spirit**. :alien:
+**_I also like researching in finding new ideas and solutions to problems._
 
-Finally, I'm currently obssessed with improving the quality of life of Nigerians through [Eden Life](https://ouredenlife.com). :four_leaf_clover: :seedling:
