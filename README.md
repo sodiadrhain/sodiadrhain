@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 **_I am Soji_, Follow me on Twitter: (https://twitter.com/sodiadrhain).** 💬👯
 
-### I code: PHP, PYTHON, JAVASCRIPT - the WEB guy ⚡⚡⚡
+### I code: PHP, PYTHON, JAVASCRIPT ⚡⚡⚡
 
 _I love building new stuffs and solving problems that gets to make things work._ :sparkles:  :four_leaf_clover: :seedling:
 
