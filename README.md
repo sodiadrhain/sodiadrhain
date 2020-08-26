@@ -16,11 +16,11 @@ Here are some ideas to get you started:
 -->
 
 
-**_I am Soji_, Follow me on Twitter: (https://twitter.com/sodiadrhain).** 💬 
+**_I am Soji_, Follow me on Twitter: (https://twitter.com/sodiadrhain).** 💬👯
 
 _I love building new stuffs and solving problems that gets to make things work._ :sparkles:  :four_leaf_clover: :seedling:
 
-_I am a fan of clean code too; love to find bugs and fix them; **In my leisure I watch football or play video games, else I sleep** :alien:
+_I am a fan of clean code too; love to find bugs and fix them; **In my leisure I watch football or play video games, else I sleep**_ :alien:
 
-**_I also like researching in finding new ideas and solutions to problems._**
+**_I also like researching in finding new ideas and solutions to problems._**⚡
 
